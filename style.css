@@ -1,0 +1,61 @@
+html {
+    background: #1a1c;
+    background-image:
+      radial-gradient(70% 20% ellipse at center top, #e40 0%, rgba(0,0,0,0) 100%),
+      radial-gradient(20% 20% ellipse at center bottom, #261226 0%, #a1c 100%);
+    background-attachment: fixed;
+    color: #225;
+  }
+  body {
+    color: #6cacc5;
+    padding: 5em 0 2em;
+    text-align: center;
+  }
+  .calculator {
+    font-size: 28px;
+    margin: 0 auto;
+    width: 10em;
+    }
+  .broken {
+    animation: broken 10s;
+    transform: translate3d(0,-2000px,0);
+    opacity: 0;
+  }
+  .viewer {
+    color: #000;
+    float: left;
+    line-height: 3em;
+    text-align: right;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 7.5em;
+    height: 3em;
+  }
+  button {
+    border: 1;
+    background: rgba(42,0,0, .28);
+    color: #6c5;
+    cursor: pointer;
+    float: left;
+    font: inherit;
+    margin: 0.25em;
+    width: 2em;
+    height: 2em;
+    transition: all 0.5s;
+  }
+  .reset {
+    background: rgba(201,0,1,.28);
+    color:#c74;
+    font-weight: 400;
+    margin-left: -77px;
+    padding: 0.5em 1em;
+    position: absolute;
+      top: -20em;
+      left: 50%;
+    width: auto;
+    height: auto;
+    
+    
+  }
+  
+  
